@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/pet-marketplace/',  
   plugins: [react()],
   server: {
     proxy: {
